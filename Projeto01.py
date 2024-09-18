@@ -8,4 +8,4 @@ y = n2/8
 
 
 print('A sua coordenada no Nether será {} e {} '.format(x,y))
-
+Tk()
