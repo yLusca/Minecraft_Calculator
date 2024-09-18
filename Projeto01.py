@@ -1,9 +1,12 @@
 from tkinter import *
 
-n1 = int(input('Digite o primeiro número '))
-n2 = int(input('Digite o segundo número '))
-s = n1+n2
+n1 = int(input('Digite a coordenada X '))
+n2 = int(input('Digite a coordenada Z '))
 
-print('A soma entre {} e {} vale {}'.format(n1,n2,s))
+x = n1/8        #processo de divisão da calculadora
+y = n2/8
 
+
+print('A sua coordenada no Nether será {} e {} '.format(x,y))
 Tk()
+#adicionar interface gráfica
